@@ -32,3 +32,7 @@ const sortCss = (path) => {
         }
     })
 }
+
+if(process.argv[2]) {
+    sortCss(process.argv[2]);
+}
